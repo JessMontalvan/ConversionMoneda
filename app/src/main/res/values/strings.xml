@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ConversionMonedas</string>
+    <string name="titulo_app">Conversión de Monedas</string>
+    <string name="btn_convertir">Convertir</string>
+    <string name="str_mensaje">Elija la moneda a convertir</string>
+    <string name="sppiner">Moneda</string>
+</resources>

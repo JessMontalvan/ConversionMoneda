@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titulo_app"
+        android:layout_width="342dp"
+        android:layout_height="53dp"
+        android:text="@string/titulo_app"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="46dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="134dp"/>
+
+        <EditText
+            android:id="@+id/texto_imput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/texto_output"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_convertir"
+        android:layout_width="150dp"
+        android:layout_height="56dp"
+        android:layout_weight="1"
+        android:text="@string/btn_convertir"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="121dp"
+        android:layout_height="22dp"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <TextView
+        android:id="@+id/mensaje"
+        android:layout_width="241dp"
+        android:layout_height="23dp"
+        android:text="@string/str_mensaje"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
