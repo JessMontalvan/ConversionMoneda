@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         convertir = (Button) findViewById(R.id.btn_convertir);
         dato1 = (EditText) findViewById(R.id.texto_imput);
         dato2 = (EditText) findViewById(R.id.texto_output);
-
+        dato2.setEnabled(false);
         String [] opciones = {"Soles", "Euros"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item, opciones);
         ruleta.setAdapter(adapter);
